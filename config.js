@@ -18,9 +18,9 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Mr Frank",           // Owner's name
-    DEV: process.env.DEV || "263719647303",                     // Developer's contact number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923311397803",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Mr ZaRaB Baloch",           // Owner's name
+    DEV: process.env.DEV || "923311397803",                     // Developer's contact number
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
@@ -31,17 +31,17 @@ module.exports = {
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",     // Sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "ZaRaB",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
-    HEART_REACT: process.env.HEART_REACT || "false",
+    HEART_REACT: process.env.HEART_REACT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "false",
     
     // ===== MEDIA & AUTOMATION =====
     AUTO_VOICE: process.env.AUTO_VOICE || "false",              // Auto-send voice messages?
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",            // Show typing indicator?
     BOT_IMAGE: getConfig("BOT_IMAGE") || "https://files.catbox.moe/qla34k.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
@@ -61,7 +61,7 @@ module.exports = {
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",        // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // VIEW to status updates?
-    AUTO_BIO: process.env.AUTO_BIO || "false",
+    AUTO_BIO: process.env.AUTO_BIO || "true",
     WELCOME_GOODBYE: process.env.WELCOME_GOODBYE || "false",
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 };
